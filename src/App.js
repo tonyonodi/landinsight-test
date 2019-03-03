@@ -21,6 +21,7 @@ export const reducer = (state, action) => {
 const AppView = styled.div`
   width: 90vmin;
   margin: 0 auto;
+  margin-bottom: 50px;
 `;
 
 const Title = styled.h1`
