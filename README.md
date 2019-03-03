@@ -12,7 +12,7 @@ This is a JavaScript application initiated with `create-react-app` and it can be
 * Used create react app to avoid having to create my own build pipeline and testing solution. And because I thought React would be a good fit for this project. Although certainly it could have been done with no framework.
 * Tried to abstract as much of the business logic as possible into pure functions in their own files in `src/lib` to help me to write them using TDD.
 * All app state is held at the top level and updated with a reducer. This is probably overkill for an app as simple as this, but it lays a good foundation for the app's growth and allows state changes to be unit tested more easily.
-* The price data has been indexed to make lookup in the array more performant. It has only occurred to me now, but it would have been better from a performance point of view to uses these indexes as keys in an object and where the data for each property is stored... Oh well ¯\_(ツ)_/¯
+* The price data has been indexed to make lookup in the array more performant. It has only occurred to me now, but it would have been better from a performance point of view to uses these indexes as keys in an object where the data for each property is stored... Oh well ¯\_(ツ)_/¯
 
 ## Compromises, trade-offs, and assumptions
 
